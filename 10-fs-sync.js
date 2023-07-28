@@ -1,14 +1,11 @@
 const { readFileSync, writeFileSync } = require("fs");
+console.log("Start");
+const first = readFileSync("./content/first.txt", "utf8");
+const second = readFileSync("./content/second.txt", "utf8");
 
-const first = readFileSync("./content/first.txt", "utf-8");
-const second = readFileSync("./content/second.txt", "utf-8");
-const third = readFileSync("./content/result-sync.txt", "utf-8");
+console.log(first, second);
 
-writeFileSync(
-  "./content/result2.txt",
-  `Here is the 3 sentences : 
-  ${first}, 
-  ${second}, 
-  ${third}.`,
-  { flag: "a" }
-);
+writeFileSync("./content/third.txt", `Here is the third text file`);
+
+console.log("done with this task.");
+console.log("Starting the next one.");

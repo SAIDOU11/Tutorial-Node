@@ -1,1 +1,1 @@
-There is the async function
+There is the async way
