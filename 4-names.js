@@ -1,8 +1,8 @@
-// locale
-const secret = "SUPER SECRET";
+//  Local
+const secret = "SUPER TOP SECRET";
 
-// global
-const john = "john";
-const peter = "peter";
+// Share
+const bob = "Bob";
+const john = "John";
 
-module.exports = { john, peter };
+module.exports = { bob, john };
