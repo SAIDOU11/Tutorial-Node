@@ -1,4 +1,0 @@
-This is the async way.
-    Hello there is the first file.,
-    Hello there is the second file.
-    
