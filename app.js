@@ -1,3 +1,1 @@
-const EventEmitter = require('events');
-
-const customEmitter = new EventEmitter();
+console.log('stream example');
